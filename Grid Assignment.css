@@ -1,0 +1,22 @@
+body{display: grid;
+    grid-template-columns: 2fr 4fr 2fr ;
+grid-template-rows: 10vh 20vh 10vh;
+row-gap: 5px;
+column-gap: 5px;
+margin: 0;}
+
+nav{background-color: aquamarine;
+grid-area: 1/1/4/1;}
+
+header{background-color: rgb(35, 116, 62);
+    grid-area: 1/4/1/2;}
+
+article{background-color: rgb(182, 74, 74);
+grid-area: 2/2/3/2;}
+
+.ads{background-color: blue;
+grid-area: 2/3/2/3;}
+
+footer{background-color: cadetblue;
+grid-area: 3/2/3/4;}
+
